@@ -87,6 +87,8 @@ namespace SQLMD
         	this.Dispose();
         }
 
+	private int test = 0;
+
         private void GetDatabaseNames(int torder)
         {
             try
