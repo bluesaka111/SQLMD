@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Test line 11
+
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
@@ -140,7 +142,7 @@ namespace SQLMD
             	Dialog.MainForm.DShowDialog("Error during download table scheme from SQL instance", ex.Message);
             }
         }
-
+// Test line 145
         private void getRowsRange(int torder, string dbname, string table)
         {
         	try
